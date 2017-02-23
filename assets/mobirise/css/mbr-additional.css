@@ -578,6 +578,11 @@ h6,
 #header1-0 .mbr-section-title {
   font-family: 'Indie Flower', cursive;
 }
+#content8-p .mbr-section-title,
+#content8-p p {
+  text-align: right;
+  color: #fff;
+}
 #header3-4 .mbr-section-title,
 #header3-4 .mbr-section-subtitle {
   text-align: center;

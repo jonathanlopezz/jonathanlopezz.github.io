@@ -1,8 +1,8 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 24,
+    "uniqCompNum": 26,
     "versionPublish": "3.10.8",
     "name": "My Site",
     "theme": {
@@ -22,13 +22,14 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       }
-    }
+    },
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "page1.html": {
       "settings": {
-        "title": "Web Page Maker Title",
-        "meta_descr": "Web Page Maker Description"
+        "title": "Jonathan's Website",
+        "meta_descr": ""
       },
       "components": [
         {
@@ -36,6 +37,17 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box5-5",
           "_params": {
             "imageSize": 50,
@@ -82,18 +94,7 @@
           },
           "title": "A Little Bit About Me...",
           "text": "Hi! My name is Jonathan Lopez. I'm in sixth grade and go to Miami Arts Studio @Zelda Glazer. I'm in Tech Production and love palying around in Adobe Photoshop. When I grow up i want to become a game designer and own a Lamborghini.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page1.html#content7-a\" data-toolbar=\"-mbrBtnMove\">Continued Biography</a>",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "color": "#ffffff"
-            },
-            "H3": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page1.html#content7-a\" data-toolbar=\"-mbrBtnMove\">Continued Biography</a>"
         },
         {
           "_styles": {
@@ -343,6 +344,14 @@
             "Theme"
           ],
           "_name": "contacts4",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "contacts4-9",
           "_params": {
             "paddingTop": "1",
@@ -386,22 +395,14 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact Me!</a>",
-          "_styles": {
-            "P": {
-              "color": "#000000"
-            },
-            "STRONG": {
-              "color": "#000000"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact Me!</a>"
         }
       ]
     },
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Jonathan's Website",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -539,6 +540,42 @@
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Come on in</a>"
         },
         {
+          "_inherit": "content5",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "text-align": "right",
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_anchor": "content8-p",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/XM534YoR_I4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "",
+          "caption": ""
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -624,7 +661,9 @@
       ]
     },
     "photoshop.html": {
-      "settings": {},
+      "settings": {
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -815,7 +854,10 @@
       ]
     },
     "illustrator.html": {
-      "settings": {},
+      "settings": {
+        "meta_descr": "",
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -1009,7 +1051,9 @@
       ]
     },
     "premiere.html": {
-      "settings": {},
+      "settings": {
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -1104,7 +1148,9 @@
       ]
     },
     "123d.html": {
-      "settings": {},
+      "settings": {
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -1199,7 +1245,9 @@
       ]
     },
     "contact.html": {
-      "settings": {},
+      "settings": {
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -1296,6 +1344,17 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "form1-l",
           "_params": {
             "labelsColor": "#232323",
@@ -1341,18 +1400,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            "SMALL": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         }
       ]
     }
