@@ -497,10 +497,10 @@ h6,
   border-color: #e42422;
 }
 #contacts4-9 P {
-  color: #000000;
+  color: #ffffff;
 }
 #contacts4-9 STRONG {
-  color: #000000;
+  color: #ffffff;
 }
 
 
@@ -578,6 +578,10 @@ h6,
 #header1-0 .mbr-section-title {
   font-family: 'Indie Flower', cursive;
 }
+#header3-r .mbr-section-title,
+#header3-r .mbr-section-subtitle {
+  text-align: center;
+}
 #content8-p .mbr-section-title,
 #content8-p p {
   text-align: right;
@@ -587,15 +591,19 @@ h6,
 #header3-4 .mbr-section-subtitle {
   text-align: center;
 }
+#gallery3-3 .mbr-gallery-item > div > span {
+  color: #ffffff;
+  font-size: 11px;
+}
 #social-buttons4-q .mbr-section-title,
 #social-buttons4-q .btn-social {
   color: #fff;
 }
 #contacts4-9 P {
-  color: #000000;
+  color: #ffffff;
 }
 #contacts4-9 STRONG {
-  color: #000000;
+  color: #ffffff;
 }
 #menu-b .hide-buttons .nav-btn {
   display: none !important;

@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 27,
+    "uniqCompNum": 28,
     "versionPublish": "3.10.8",
     "name": "My Site",
     "theme": {
@@ -346,16 +346,16 @@
           "_name": "contacts4",
           "_styles": {
             "P": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "STRONG": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "contacts4-9",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/untitled-2-2000x1555.jpg",
@@ -363,9 +363,9 @@
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#bf3c3b"
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
+          "text1": "<strong>Address</strong><br>\n15015 SW 24th Street<br>Miami, Florida 33185<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
@@ -529,7 +529,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#1d0000",
+            "overlayColor": "#2e0100",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -538,6 +538,26 @@
           "title": "Jonathan Lopez",
           "text": "~~check out my stuff~~",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Come on in</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-r",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#b8312f",
+            "showMeta": true
+          },
+          "title": "",
+          "meta": ""
         },
         {
           "_inherit": "content5",
@@ -612,7 +632,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/image-2-sw-2000x1250-800x500.jpg",
                 "image": "@PROJECT_PATH@/assets/images/image-2-sw-2000x1250.jpg",
-                "caption": "Type caption here",
+                "caption": "Stevie Wonder Record and Album Cover",
                 "active": false
               },
               {
@@ -622,7 +642,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/image-4-rw-2000x1250-800x500.jpg",
                 "image": "@PROJECT_PATH@/assets/images/image-4-rw-2000x1250.jpg",
-                "caption": "Type caption here",
+                "caption": "Rolo Candy Wraper",
                 "active": false
               },
               {
@@ -632,7 +652,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/image-3-ie-2000x1250-800x500.jpg",
                 "image": "@PROJECT_PATH@/assets/images/image-3-ie-2000x1250.jpg",
-                "caption": "Type caption here",
+                "caption": "Purple Eye",
                 "active": true
               },
               {
@@ -642,12 +662,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/image-1-sw-2000x1250-800x500.jpg",
                 "image": "@PROJECT_PATH@/assets/images/image-1-sw-2000x1250.jpg",
-                "caption": "Type caption here",
+                "caption": "Luke Skywalker and Darth Vader",
                 "active": false
               }
             ],
             "spacing": 1,
-            "showText": false,
+            "showText": true,
             "filter": false,
             "bgColor": "#d71d1b",
             "filterBgColor": true,
@@ -656,7 +676,13 @@
           },
           "_anchor": "gallery3-3",
           "articleLayout": false,
-          "allItem": "All"
+          "allItem": "All",
+          "_styles": {
+            ".mbr-gallery-item > div > span": {
+              "color": "#ffffff",
+              "font-size": "11px"
+            }
+          }
         },
         {
           "_inherit": "social-buttons2",
@@ -671,8 +697,8 @@
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-q",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
@@ -692,16 +718,16 @@
           "_name": "contacts4",
           "_styles": {
             "P": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "STRONG": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "contacts4-9",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/untitled-2-2000x1555.jpg",
@@ -709,9 +735,9 @@
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#bf3c3b"
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
+          "text1": "<strong>Address</strong><br>\n15015 SW 24th Street<br>Miami, Florida 33185<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
