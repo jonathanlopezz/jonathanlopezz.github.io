@@ -587,6 +587,16 @@ h6,
 #header3-4 .mbr-section-subtitle {
   text-align: center;
 }
+#social-buttons4-q .mbr-section-title,
+#social-buttons4-q .btn-social {
+  color: #fff;
+}
+#contacts4-9 P {
+  color: #000000;
+}
+#contacts4-9 STRONG {
+  color: #000000;
+}
 #menu-b .hide-buttons .nav-btn {
   display: none !important;
 }
