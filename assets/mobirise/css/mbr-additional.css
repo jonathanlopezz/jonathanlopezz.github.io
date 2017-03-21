@@ -672,6 +672,10 @@ h6,
 #menu-b .close-icon::after {
   background-color: #ffffff;
 }
+#header3-s .mbr-section-title,
+#header3-s .mbr-section-subtitle {
+  text-align: center;
+}
 #menu-h .hide-buttons .nav-btn {
   display: none !important;
 }
