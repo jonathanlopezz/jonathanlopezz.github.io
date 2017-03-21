@@ -1,8 +1,8 @@
 {
   "settings": {
-    "currentPage": "photoshop.html",
+    "currentPage": "page1.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 30,
+    "uniqCompNum": 31,
     "versionPublish": "3.10.8",
     "name": "My Site",
     "theme": {
@@ -33,30 +33,30 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".lead P": {
+              "color": "#000000",
+              "font-size": "19px"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "color": "#ffffff"
-            },
-            "H3": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "msg-box5-5",
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-u",
           "_params": {
-            "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": 0,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/controller-1-2000x1555.jpg",
-            "bgColor": "#d61310",
+            "bgImage": "@PROJECT_PATH@/assets/images/jony-1-2000x2666-2.jpg",
+            "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -65,36 +65,13 @@
             "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#b8312f",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/pic-of-me-1400x1088.jpg",
-              "link": "index.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
+            "showButton": false
           },
           "title": "A Little Bit About Me...",
-          "text": "Hi! My name is Jonathan Lopez. I'm in sixth grade and go to Miami Arts Studio @Zelda Glazer. I'm in Tech Production and love palying around in Adobe Photoshop. When I grow up i want to become a game designer and own a Lamborghini.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page1.html#content7-a\" data-toolbar=\"-mbrBtnMove\">Continued Biography</a>"
+          "text": "<p>Hi! My name is Jonathan Lopez. I'm in sixth grade and go to Miami Arts Studio @Zelda Glazer. I'm in tech production and love palying around in Adobe Photoshop. When I grow up I want to become a game designer and own a Lamborghini. I have two more goals that I want to accomplish when I'm older. I want to own my own emergency elevator phone company like my dad. In addition, when I have mastered animating I want to work for Pixar as an animator.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
           "_styles": {
@@ -255,7 +232,7 @@
               "newWindow": false
             }
           },
-          "title2": "Wor for Pixar as an animator",
+          "title2": "Work for Pixar as an animator",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "My second goal is to work for Pixar as an animator when I have mastered animating.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -274,7 +251,7 @@
           },
           "title3": "Own an emergency elevator phone business",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "My third goal is to own an emergency elevator company like my dad does.",
+          "caption3": "My third goal is to own an emergency elevator phone company like my dad does.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -335,7 +312,7 @@
             "paddingBottom": 1,
             "bgColor": "#f54b42"
           },
-          "text1": "<p>Hi! My name is Jonathan Lopez. I'm in sixth grade and go to Miami Arts Studio @Zelda Glazer. I'm in tech production and love palying around in Adobe Photoshop. When I grow up<i>&nbsp;I</i>&nbsp;want to become a game designer and own a Lamborghini. I have two more goals that I want to accomplish when I'm older. I want to own my own emergency elevator phone like my dad. In addition, when  I have mastered animating I want to work for Pixar as an animator.</p>",
+          "text1": "<p>Hi! My name is Jonathan Lopez. I'm in sixth grade and go to Miami Arts Studio @Zelda Glazer. I'm in tech production and love palying around in Adobe Photoshop. When I grow up<i>&nbsp;I</i>&nbsp;want to become a game designer and own a Lamborghini. I have two more goals that I want to accomplish when I'm older. I want to own my own emergency elevator phone company like my dad. In addition, when  I have mastered animating I want to work for Pixar as an animator.</p>",
           "text2": "<p>I got interested in computers when I was five years old. I started off by playing some online games. In the summer of 2015 I started making channel art for my friends' YouTube channels. I eventually made my own YouTube channel. My first video has over twelve thousand views and counting! Eventually I graduated elementary school and went to middle school. My magnet, Tech Production,has helped me learn how to work productivley in computers. Now, I know a lot about Photoshop and more!</p>",
           "text3": "When I retire I want to be rich. I also want to live in my own mansion with a beach view. By then I would like to already have my blue Lamborghini. I also want to be married and have grandchildren. I also want to have two Golden Retrievers."
         },
@@ -346,10 +323,10 @@
           "_name": "contacts4",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_anchor": "contacts4-9",
@@ -718,10 +695,10 @@
           "_name": "contacts4",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_anchor": "contacts4-9",

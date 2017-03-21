@@ -1,9 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-
 
 
 
@@ -414,13 +412,16 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#msg-box5-5 P {
-  text-align: left;
-  color: #ffffff;
+#msg-box8-u .mbr-section-title,
+#msg-box8-u p {
+  color: #fff;
 }
-#msg-box5-5 H3 {
-  font-family: 'Oswald', sans-serif;
-  color: #ffffff;
+#msg-box8-u .mbr-section-title {
+  color: #000000;
+}
+#msg-box8-u .lead P {
+  color: #000000;
+  font-size: 19px;
 }
 #menu-1 .hide-buttons .nav-btn {
   display: none !important;
@@ -497,10 +498,10 @@ h6,
   border-color: #e42422;
 }
 #contacts4-9 P {
-  color: #ffffff;
+  color: #000000;
 }
 #contacts4-9 STRONG {
-  color: #ffffff;
+  color: #000000;
 }
 
 
@@ -600,10 +601,10 @@ h6,
   color: #fff;
 }
 #contacts4-9 P {
-  color: #ffffff;
+  color: #000000;
 }
 #contacts4-9 STRONG {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-b .hide-buttons .nav-btn {
   display: none !important;
