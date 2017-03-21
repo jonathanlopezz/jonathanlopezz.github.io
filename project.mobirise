@@ -3,7 +3,7 @@
     "currentPage": "page1.html",
     "versionFirst": "3.8.3",
     "uniqCompNum": 31,
-    "versionPublish": "3.10.8",
+    "versionPublish": "3.11.1",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -55,7 +55,7 @@
             "paddingBottom": "5",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jony-1-2000x2666-2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-1-2000x1500.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
