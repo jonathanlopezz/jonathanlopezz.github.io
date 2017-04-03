@@ -1,8 +1,8 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 31,
+    "uniqCompNum": 37,
     "versionPublish": "3.11.1",
     "name": "My Site",
     "theme": {
@@ -29,7 +29,8 @@
     "page1.html": {
       "settings": {
         "title": "Jonathan's Website",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 2
       },
       "components": [
         {
@@ -335,11 +336,11 @@
             "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/untitled-2-2000x1555.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
             "bgColor": "#ff5e56",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.8,
+            "overlayOpacity": "1",
             "overlayColor": "#bf3c3b"
           },
           "text1": "<strong>Address</strong><br>\n15015 SW 24th Street<br>Miami, Florida 33185<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
@@ -383,7 +384,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -537,40 +539,39 @@
           "meta": ""
         },
         {
-          "_inherit": "content5",
+          "_inherit": "msg-box8",
           "_styles": {
             ".mbr-section-title, p": {
-              "text-align": "right",
-              "color": "#fff"
+              "color": "#000"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "content8",
-          "_anchor": "content8-p",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-10",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "3",
-            "bgImageRadio": false,
+            "paddingBottom": "1",
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "bgColor": "#fff",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/XM534YoR_I4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlayColor": "#000000",
             "showTitle": true,
-            "showCaption": true
+            "showText": true,
+            "showButton": true
           },
-          "title": "",
-          "caption": ""
+          "title": "Watch my story",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.youtube.com/watch?v=5o6lUXdGPRA\" data-toolbar=\"-mbrBtnMove\">My Story</a>"
         },
         {
           "_styles": {
@@ -707,11 +708,11 @@
             "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/untitled-2-2000x1555.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
             "bgColor": "#ff5e56",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.8,
+            "overlayOpacity": "1",
             "overlayColor": "#bf3c3b"
           },
           "text1": "<strong>Address</strong><br>\n15015 SW 24th Street<br>Miami, Florida 33185<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
@@ -750,7 +751,8 @@
     },
     "photoshop.html": {
       "settings": {
-        "title": ""
+        "title": "",
+        "order": 3
       },
       "components": [
         {
@@ -1157,7 +1159,8 @@
     "illustrator.html": {
       "settings": {
         "meta_descr": "",
-        "title": ""
+        "title": "",
+        "order": 4
       },
       "components": [
         {
@@ -1353,7 +1356,8 @@
     },
     "premiere.html": {
       "settings": {
-        "title": ""
+        "title": "",
+        "order": 5
       },
       "components": [
         {
@@ -1450,7 +1454,8 @@
     },
     "123d.html": {
       "settings": {
-        "title": ""
+        "title": "",
+        "order": 6
       },
       "components": [
         {
@@ -1547,7 +1552,8 @@
     },
     "contact.html": {
       "settings": {
-        "title": ""
+        "title": "",
+        "order": 7
       },
       "components": [
         {
