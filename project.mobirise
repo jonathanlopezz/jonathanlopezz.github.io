@@ -412,13 +412,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#260000"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#4a0100!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#590100"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -447,7 +447,7 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#590100",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -532,7 +532,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#b8312f",
+            "bgColor": "#202020",
             "showMeta": true
           },
           "title": "",
@@ -543,6 +543,12 @@
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#000"
+            },
+            ".lead": {
+              "color": "#cccccc"
+            },
+            ".mbr-section-title": {
+              "color": "#cccccc"
             }
           },
           "_tags": [
@@ -555,7 +561,7 @@
             "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -563,20 +569,23 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000000",
+            "overlayOpacity": "0.1",
+            "overlayColor": "#ffffff",
             "showTitle": true,
             "showText": true,
             "showButton": true
           },
           "title": "Watch my story",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.youtube.com/watch?v=5o6lUXdGPRA\" data-toolbar=\"-mbrBtnMove\">My Story</a>"
+          "text": "Check ot my story about how I grew up to be who I am today.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.youtube.com/watch?v=zTDwQS3oRb0\" data-toolbar=\"-mbrBtnMove\">My Story</a>"
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#cccccc"
             }
           },
           "_tags": [
@@ -587,7 +596,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#ff5c5a",
+            "bgColor": "#030303",
             "showMeta": true
           },
           "title": "A Little Bit of My Work...",
@@ -653,7 +662,7 @@
             "spacing": 1,
             "showText": true,
             "filter": false,
-            "bgColor": "#d71d1b",
+            "bgColor": "#760100",
             "filterBgColor": true,
             "fullWidth": true,
             "showBullets": true
@@ -680,7 +689,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#b10900",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -713,7 +722,7 @@
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": "1",
-            "overlayColor": "#bf3c3b"
+            "overlayColor": "#212121"
           },
           "text1": "<strong>Address</strong><br>\n15015 SW 24th Street<br>Miami, Florida 33185<br><br><br>\n<strong>Contacts</strong><br>\nEmail:&nbsp;<br>School: jlopez@miamiartsstudio.com<br>Personal: soldierjony@gmail.com<br>\nPhone: +1 (786)-478-2343<br><br>",
           "text2": "",
